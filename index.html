@@ -30,11 +30,11 @@
   <main class="container">
     <header>
       <h1>Privacy Policy</h1>
-      <p class="muted small">for <strong>Westie Notes</strong> • Effective date: <time datetime="2025-10-02">October 2, 2025</time></p>
+      <p class="muted small">for <strong>Westie Notes</strong> • Effective date: <time datetime="2025-10-05">October 5, 2025</time></p>
     </header>
 
     <section class="card">
-      <p><strong>Westie Notes</strong> is a note‑taking app designed to help you organize your thoughts, tasks, and ideas. We take your privacy seriously. This Privacy Policy explains how the app handles information. In short: <em>your notes are encrypted before being stored</em>, and we use <em>Firebase Authentication</em> and <em>Firebase Storage</em> to provide secure backup and sync features.</p>
+      <p><strong>Westie Notes</strong> is a note-taking app designed to help you organize your thoughts, tasks, and ideas. We take your privacy seriously. This Privacy Policy explains how the app handles information. In short: <em>your notes are encrypted before being stored</em>, and we use <em>Firebase Authentication</em>, <em>Firebase Storage</em>, and <em>RevenueCat</em> for subscription management. Your sensitive data remains protected and encrypted.</p>
     </section>
 
     <h2>1. Scope</h2>
@@ -43,36 +43,43 @@
     <h2>2. Data Collection and Use</h2>
     <ul>
       <li><strong>User Authentication.</strong> We use Firebase Authentication to let you sign in securely. This may involve storing your email address or other identifiers needed for login.</li>
-      <li><strong>Encrypted Notes Storage.</strong> Your notes are encrypted locally before being uploaded to Firebase Storage. This means Firebase never sees your raw, unencrypted data.</li>
-      <li><strong>No third‑party tracking.</strong> We do not use advertising SDKs or analytics tools that track you across apps.</li>
+      <li><strong>Encrypted Notes Storage.</strong> Your notes are encrypted locally before being uploaded to Firebase Storage. Firebase never has access to your unencrypted data.</li>
+      <li><strong>Subscription Management.</strong> We use RevenueCat to handle in-app purchases and subscriptions. RevenueCat processes purchase-related information, such as transaction receipts, subscription status, and associated identifiers from Apple App Store or Google Play, to enable premium features. We do not store or have access to your payment card information.</li>
+      <li><strong>No advertising or tracking.</strong> Westie Notes does not include any advertising SDKs or analytics tools that track user behavior.</li>
     </ul>
 
     <h2>3. Local and Cloud Storage</h2>
-    <p>Your notes are encrypted and then stored in Firebase Storage so they can be backed up and accessed across devices. A copy of your notes may also be kept locally on your device for offline access. If you uninstall the app, your local data will be deleted, but your encrypted cloud backup will remain linked to your account until you delete it.</p>
+    <p>Your notes are encrypted and stored in Firebase Storage for backup and synchronization. A local copy may remain on your device for offline use. If you uninstall the app, local data will be deleted, while encrypted backups will remain tied to your account until you delete them manually or request removal.</p>
 
     <h2>4. Device Permissions</h2>
-    <p>Westie Notes requests only the minimal permissions required for its core features (for example, notifications to remind you of tasks). Granting or revoking permissions can be managed in your device settings. Westie Notes does not access your contacts, photos, location, microphone, or camera unless a specific feature clearly requires it and you choose to enable it.</p>
+    <p>Westie Notes requests only the permissions necessary for its core features (e.g., notifications). You can manage permissions in your device settings. Westie Notes does not access your contacts, photos, or location unless explicitly required by a feature you enable.</p>
 
-    <h2>5. Third‑Party Services</h2>
-    <p>Westie Notes integrates with Firebase (by Google) for authentication and secure cloud storage. These services are subject to Google’s Privacy Policy in addition to this policy.</p>
+    <h2>5. Third-Party Services</h2>
+    <ul>
+      <li><strong>Firebase (Google LLC):</strong> Used for authentication and encrypted cloud storage. See <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.</li>
+      <li><strong>RevenueCat:</strong> Used for subscription management and in-app purchase validation. See <a href="https://www.revenuecat.com/privacy/">RevenueCat’s Privacy Policy</a>.</li>
+    </ul>
 
-    <h2>6. Children’s Privacy</h2>
+    <h2>6. Billing and Payments</h2>
+    <p>All purchases and subscriptions are processed securely through Apple App Store or Google Play. We do not collect or store your payment details. RevenueCat acts as an intermediary to verify purchases and manage subscription status using data provided by Apple or Google. You can manage or cancel subscriptions directly through your device’s account settings.</p>
+
+    <h2>7. Children’s Privacy</h2>
     <p>Westie Notes is suitable for general audiences and does not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided personal information, please contact us so we can address it.</p>
 
-    <h2>7. Your Rights</h2>
-    <p>You may request deletion of your account and associated cloud data at any time. Because Westie Notes encrypts your notes before uploading, we cannot read or process your content. Under GDPR/CCPA, you may have rights to access, deletion, or portability of your account‑related data (such as your email for authentication). To exercise these rights, please contact us.</p>
+    <h2>8. Your Rights</h2>
+    <p>You can request deletion of your account and associated cloud data at any time. Under GDPR/CCPA, you may have rights to access, delete, or export your account-related data (e.g., email, purchase history). To exercise these rights, please contact us using the email below.</p>
 
-    <h2>8. Security</h2>
-    <p>Westie Notes encrypts your notes before storing them. Please also protect your device with a passcode and keep your operating system up to date. If you export data or use external backup tools, the security of that exported data depends on those services.</p>
+    <h2>9. Security</h2>
+    <p>All notes are encrypted before storage. Authentication and billing are handled via trusted third-party providers (Firebase and RevenueCat). Please protect your device with a passcode and keep your software up to date.</p>
 
-    <h2>9. Changes to This Policy</h2>
-    <p>We may update this policy to reflect improvements or changes in the app. If a material change occurs, we will update the effective date above and may provide an in‑app notice.</p>
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this policy to reflect app improvements or new legal requirements. If a material change occurs, we will update the effective date above and may provide an in-app notice.</p>
 
-    <h2>10. Contact</h2>
+    <h2>11. Contact</h2>
     <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:unyawndeveloper@gmail.com">unyawndeveloper@gmail.com</a>.</p>
 
     <hr />
-    <p class="muted small">This page is provided for informational purposes. Westie Notes encrypts your notes before storing them and uses Firebase services only for authentication and storage.</p>
+    <p class="muted small">This page is provided for informational purposes. Westie Notes encrypts all notes, uses Firebase for authentication and storage, and RevenueCat for secure subscription management.</p>
   </main>
 </body>
 </html>
